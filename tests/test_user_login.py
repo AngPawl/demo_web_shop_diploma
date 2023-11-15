@@ -36,6 +36,7 @@ def test_unregistered_user_cannot_log_in():
     web_app.login_page.no_account_error_renders()
 
 
+@allure.feature('Login')
 @allure.title('User cannot log in with invalid password')
 @allure.label('owner', 'AngPawl')
 @allure.tag('smoke tests')
