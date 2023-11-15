@@ -6,6 +6,7 @@ from demo_web_shop_diploma.data.search_queries import search_queries
 from demo_web_shop_diploma.web_app import web_app
 
 
+@allure.feature('Place order')
 @allure.title(
     'Newly registered user without saved billing address successfully places an order'
 )
@@ -34,6 +35,7 @@ def test_newly_registered_user_without_billing_address_successfully_places_order
     web_app.order_completed_page.order_is_successfully_placed()
 
 
+@allure.feature('Place order')
 @allure.title(
     'Already registered user with a saved billing address successfully places an order'
 )

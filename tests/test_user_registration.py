@@ -5,6 +5,7 @@ from demo_web_shop_diploma.data import users
 from demo_web_shop_diploma.web_app import web_app
 
 
+@allure.feature('Registration')
 @allure.title('User successfully registers')
 @allure.label('owner', 'AngPawl')
 @allure.tag('smoke tests')
@@ -18,6 +19,7 @@ def test_user_is_successfully_registered():
     web_app.registration_page.user_has_successfully_registered()
 
 
+@allure.feature('Registration')
 @allure.title('User is already registered')
 @allure.label('owner', 'AngPawl')
 @allure.tag('smoke tests')

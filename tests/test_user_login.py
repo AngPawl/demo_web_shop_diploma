@@ -8,6 +8,7 @@ from demo_web_shop_diploma.data import users
 from demo_web_shop_diploma.web_app import web_app
 
 
+@allure.feature('Login')
 @allure.title('User successfully logs in')
 @allure.label('owner', 'AngPawl')
 @allure.tag('smoke tests')
@@ -21,6 +22,7 @@ def test_user_successfully_logs_in():
     web_app.login_page.user_has_successfully_logged_in(users.registered_customer)
 
 
+@allure.feature('Login')
 @allure.title('User cannot log in without being registered')
 @allure.label('owner', 'AngPawl')
 @allure.tag('smoke tests')
