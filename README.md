@@ -116,7 +116,7 @@ pytest .
 
 ![This is an image](design/images/jira.png)
 
-### Additionally, Telegram integration is set for immediate test result notifications:
+## Additionally, Telegram integration is set for immediate test result notifications:
 ![This is an image](design/images/tg.png)
 
 ### There is a short video sample of a test case run from <a target="_blank" href="https://selenoid.autotests.cloud/#/">Selenoid</a> server
