@@ -20,7 +20,7 @@ def test_search_for_valid_query():
 
 
 @allure.feature('Search')
-@allure.title('Search doesn\'t return results for a valid query')
+@allure.title('Search doesn\'t return results for a invalid query')
 @allure.label('owner', 'AngPawl')
 @allure.tag('smoke tests')
 @allure.tag('Search')
