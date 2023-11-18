@@ -63,7 +63,7 @@ python -m venv .venv
   source venv/scripts/activate
   ```
 
-5. Install requirements from requirements.txt
+5. Install dependencies from requirements.txt
 
 ```bash
 pip install -r requirements.txt
